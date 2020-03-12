@@ -1,0 +1,229 @@
+Code1:
+package mobile;
+
+public class Giga {
+	public static void main(String[] args) {
+		
+		for( int i=1; i<=5; i++) {
+			for(int p=1; p<=i; p++) {
+				System.out.print(i);
+				
+			}
+			System.out.println("");
+			
+			
+		}
+	
+	}
+
+}
+
+output 1:
+1
+22
+333
+4444
+55555
+
+
+
+Code2:
+package mobile;
+
+public class Sequence {
+	public static void main(String[] args) {
+		for( int i=1; i<=8; i++) {
+			for(int p=1; p<=i; p++) {
+				System.out.print("*");
+				
+			}
+			System.out.println(" ");
+			
+			
+		}
+	}
+
+}
+
+output 2:
+* 
+** 
+*** 
+**** 
+***** 
+****** 
+******* 
+********
+
+
+ 
+code 3:
+package mobile;
+
+public class Stars {
+	public static void main(String[] args) {
+	for( int i=8; i<=8; i--) {
+		for(int p=1; p<=i; p++) {
+			System.out.print("*");
+			
+		}
+	
+		System.out.println(" ");
+		
+	}
+	
+
+}
+}
+output 3:
+********
+*******
+******
+*****
+****
+***
+**
+*
+
+
+
+code4:
+package mobile;
+
+public class Stars {
+	public static void main(String[] args) {
+	for( int i=8; i>=1; i--){
+		
+		for(int p=1; p<i; p++) {
+			System.out.print(" ");
+		}
+		for(int z=8; z>=i;z--) {
+			System.out.print("*");
+		}
+		System.out.println("");
+		}
+	}
+}
+		
+output 4:
+       *
+      **
+     ***
+    ****
+   *****
+  ******
+ *******
+********
+
+
+code 5:
+package mobile;
+
+public class Alphabets {
+	public static void main(String[] args) {
+		char a = 'A';
+		for(int i=1; i<=5; i++) {
+			for(int j=1; j<=i; j++) {
+				System.out.print(a);
+			}
+			System.out.println(" ");
+			a++;
+		}
+	}
+}
+output 5:
+A
+BB
+CCC
+DDDD
+EEEEE
+
+
+code 6:
+package mobile;
+
+public class Alphabets {
+	public static void main(String[] args) {
+		
+		for(int i=5; i>=1; i--) {
+			for(int j=5; j>=i; j--) {
+				System.out.print(j);
+			}
+			
+			System.out.println(" ");
+		
+		}
+	}
+}
+output 6:
+5 
+54 
+543 
+5432 
+54321 
+
+
+
+code 7:
+package mobile;
+
+public class Giga {
+	public static void main(String[] args) {
+		int a = 0;
+		for( int i=1; i<=5; i++) {
+			for(int p=1; p<=i; p++) {
+				System.out.print(a+1);
+			a = a+1;	
+			}
+			System.out.println("");
+			
+			
+		}
+	
+	}
+
+}
+output 7:
+1
+23
+456
+78910
+1112131415
+
+
+
+Code 8:
+package patterns;
+
+public class Patterns8 {
+
+	public static void main(String[] args) {
+		for(int i=0;i<7;i++) {
+			for(int j=6;j>=i;j--) {
+				System.out.print(" ");
+			}
+			for(int k=1;k<=2*i+1;k++) {
+				System.out.print("*");
+			}
+			System.out.println(" ");
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+output 8:
+       * 
+      *** 
+     ***** 
+    ******* 
+   ********* 
+  *********** 
+ ************* 
+
+
+
+
+
